@@ -8,7 +8,6 @@ public class Circulo {
     
     public Circulo(float raio){
         this.raio = raio;
-        this.area = this.raio*pi;
     }
 
     public float getRaio(){
@@ -21,11 +20,13 @@ public class Circulo {
 
 
     public float getArea(){
-        return this.area;
+        double area = Math.pow(this.raio, 2)*pi;
+        return (float) area;
     }
 
     public float getCircunferencia(){
-        return this.circunferencia;
+        float circunferencia = 2*pi*raio;
+        return circunferencia;
     }
 
 
