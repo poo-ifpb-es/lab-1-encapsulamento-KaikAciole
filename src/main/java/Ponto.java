@@ -45,6 +45,6 @@ class Linha{
         this.fim = fim;
     }
     public double getComprimento() {
-        return this.fim - this.inicio;
+        return Math.sqrt(Math.pow((fim.getX() - inicio.getX()), 2) + Math.pow((fim.getY()-inicio.getY()), 2));
     }
 }
