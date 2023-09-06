@@ -1,6 +1,6 @@
 public class RelogioDigital {
-    int hora;
-    int minuto;
+    private int hora;
+    private int minuto;
 
     public RelogioDigital(){
         this.hora = 12;
