@@ -1,11 +1,9 @@
 public class Circulo {
-    float raio;
-    float circunferencia;
-    float area; 
-    float pi = 3.14159f;
     
+    private float raio;
+    private float pi = 3.14159f;
     
-    
+
     public Circulo(float raio){
         this.raio = raio;
     }
